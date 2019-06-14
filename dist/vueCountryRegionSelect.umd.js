@@ -2273,12 +2273,12 @@ var component = normalizeComponent(
 )
 
 /* harmony default export */ var country_select = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6dc7dc89-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/region-select.vue?vue&type=template&id=05a3c278&
-var region_selectvue_type_template_id_05a3c278_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('select',{class:_vm.className,on:{"change":function($event){_vm.onChange($event.target.value)}}},[_c('option',{attrs:{"value":""}},[_vm._v(_vm._s(_vm.placeholder))]),_vm._l((_vm.shownRegions),function(place,index){return _c('option',{key:index,domProps:{"value":place[_vm.valueType],"selected":_vm.region === place[_vm.valueType]}},[_vm._v(_vm._s(place.name))])})],2)}
-var region_selectvue_type_template_id_05a3c278_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6dc7dc89-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/region-select.vue?vue&type=template&id=4e8b8f18&
+var region_selectvue_type_template_id_4e8b8f18_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('select',{class:_vm.className,on:{"change":function($event){_vm.onChange($event.target.value)}}},[_c('option',{attrs:{"value":""}},[_vm._v(_vm._s(_vm.placeholder))]),_vm._l((_vm.shownRegions),function(place,index){return _c('option',{key:index,domProps:{"value":place[_vm.valueType],"selected":_vm.region === place[_vm.valueType]}},[_vm._v(_vm._s(place.name))])})],2)}
+var region_selectvue_type_template_id_4e8b8f18_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/region-select.vue?vue&type=template&id=05a3c278&
+// CONCATENATED MODULE: ./src/components/region-select.vue?vue&type=template&id=4e8b8f18&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/region-select.vue?vue&type=script&lang=js&
 
@@ -2364,11 +2364,7 @@ var region_selectvue_type_template_id_05a3c278_staticRenderFns = []
     }
   },
   watch: {
-    country: function country(newVal, oldVal) {
-      if (oldVal !== '') {
-        this.onChange('');
-      }
-
+    country: function country() {
       if (this.country) {
         this.getRegionWithCountry();
       } else {
@@ -2389,8 +2385,8 @@ var region_selectvue_type_template_id_05a3c278_staticRenderFns = []
 
 var region_select_component = normalizeComponent(
   components_region_selectvue_type_script_lang_js_,
-  region_selectvue_type_template_id_05a3c278_render,
-  region_selectvue_type_template_id_05a3c278_staticRenderFns,
+  region_selectvue_type_template_id_4e8b8f18_render,
+  region_selectvue_type_template_id_4e8b8f18_staticRenderFns,
   false,
   null,
   null,

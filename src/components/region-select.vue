@@ -69,10 +69,7 @@
       }
     },
     watch: {
-      country(newVal, oldVal) {
-        if (oldVal !== '') {
-          this.onChange('')
-        }
+      country() {
         if (this.country) {
           this.getRegionWithCountry()
         } else {
